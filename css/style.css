@@ -1,10 +1,20 @@
 a.logo{line-height: 120px;}
 .navbar-nav > li > a{
 	font-size: 20px; 
-	}
+}
 .headerWrapper{
 	-webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.11);
 	-moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.11);
 	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.11);
 
+}
+
+@font-face {
+	font-family: 'BankGothicBT';
+	src: url('BankGothicBT-Medium.eot');
+	src: url('BankGothicBT-Medium.eot?#iefix') format('embedded-opentype'),
+	url('BankGothicBT-Medium.woff') format('woff'),
+	url('BankGothicBT-Medium.ttf')  format('truetype');
+	font-weight: 500;
+	font-style: normal;
 }
