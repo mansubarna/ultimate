@@ -3925,10 +3925,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-nav > li > a {
   line-height: 112px;
   border-bottom: 8px solid #fff;
+  font-family: "BankGothicBT", sans-serif; 
+ font-weight: 500;
 }
 
 .navbar-nav > li.active > a {
- border-bottom: 8px solid #5daaca; 
+ border-bottom: 8px solid #5daaca;
+
 }
 
 @media (max-width: 767px) {
@@ -5718,6 +5721,7 @@ button.close {
   position: relative;
   width: 100%;
   overflow: hidden;
+  height: 464px;
 }
 .carousel-inner > .item {
   position: relative;
@@ -5729,6 +5733,7 @@ button.close {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   line-height: 1;
+  margin: 0 auto;
 }
 .carousel-inner > .active,
 .carousel-inner > .next,
@@ -5880,9 +5885,7 @@ button.close {
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-prev,
   .carousel-control .icon-next {
-    width: 30px;
-    height: 30px;
-    margin-top: -15px;
+       margin-top: -15px;
     font-size: 30px;
   }
   .carousel-control .glyphicon-chevron-left,
@@ -5896,10 +5899,10 @@ button.close {
   .carousel-caption {
     right: 20%;
     left: 20%;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
   }
   .carousel-indicators {
-    bottom: 20px;
+    bottom: 0px;
   }
 }
 .clearfix:before,
